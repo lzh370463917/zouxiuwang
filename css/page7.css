@@ -1,0 +1,141 @@
+
+
+header{
+	width: 100%;
+	height: 2.2rem;
+	background: #e4366b;
+	text-align: center;
+}
+header h3{
+	font-size: 0.95rem;
+	color: white;
+	line-height: 2.2rem;
+	font-weight: normal;
+}
+main{
+	flex: 1;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+}
+main .search{
+	width: 100%;
+	height: 2.25rem;
+	background: #52525a;
+	text-align: center;
+	line-height: 1.85rem;
+	
+}
+main .search .inner_sear{
+	width: 80%;
+	height: 1.325rem;
+	border: none;
+	border-radius: 1rem;
+	background: white url(../images/search.gif) no-repeat 0.5rem center ;
+	background-size: 0.95rem 0.95rem;
+	padding: 0 0.5rem;
+	text-indent: 1rem;
+	font-size: 0.6rem;
+}
+main .adver{
+	width: 100%;
+	height: 6.25rem;
+	background: #000099;
+}
+main .adver img{
+	width: 100%;
+	height: 100%;
+}
+main section{
+	width: 100%;
+	flex: 1;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+main section dl{
+	width: 100%;
+	height: 5.5rem;
+	border-bottom: 2px solid #707070;
+	
+}
+main section dl dt{
+	width: 4.35rem;
+	height: 4.35rem;
+	float: left;
+	margin-left: 0.375rem;
+	margin-top: 0.55rem;
+}
+main section dl dt img{
+	width: 100%;
+	height: 100%;
+}
+main section dl dd{
+	width: 10rem;
+	height: 4.35rem;
+	float: left;
+	margin-left: 0.375rem;
+	margin-top: 0.55rem;
+	position: relative;
+}
+main section dl dd p{
+	font-size: 0.7rem;
+}
+main section dl dd .price span{
+	color: #f42a73;
+	font-size: 0.75rem;
+}
+main section dl dd .price i{
+	font-style: normal;
+	font-size: 0.5rem;
+	text-decoration: line-through;
+	margin-left: 0.5rem;
+	color: #bcbabb;
+}
+main section dl dd .zhekou{
+	position: absolute;
+	font-size: 0.6rem;
+	left: 0;
+	bottom: 0;
+}
+main section dl dd em{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+main section dl dd em img{
+	width: 3rem;
+	height: 1.3rem;
+}
+footer{
+	width: 100%;
+	height: 2.5rem;
+	background: #484850;
+}
+footer ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer ul li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	width: 20%;
+	height: 98%;
+}
+footer ul li:hover{
+	border-top: 0.125rem solid #e4366b;
+}
+footer ul li i{
+	font-size: 1.2rem!important;
+	margin-bottom: 0.25rem;
+}
+footer ul li span{
+	font-size: 0.6rem;
+}

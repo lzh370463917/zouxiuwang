@@ -1,0 +1,95 @@
+header{
+	width: 100%;
+	height: 2.2rem;
+	background: #e4366b;
+	text-align: center;
+	position: relative;
+}
+header .back{
+	position: absolute;
+	left: 0.5rem;
+	top: 0.55rem;
+}
+header .back img{
+	width: 1.35rem;
+	height: 0.95rem;
+}
+header .calc{
+	position: absolute;
+	top: 0.55rem;
+	right: 0.5rem;
+	width: 2.75rem;
+	height: 1.35rem;
+	border: none;
+	border-radius: 0.45rem;
+	color: #fff;
+	font-size: 0.6rem;
+	background: #e93d6f;
+}
+header h3{
+	font-size: 0.95rem;
+	color: white;
+	line-height: 2.2rem;
+	font-weight: normal;
+}
+
+main{
+	flex: 1;
+	width: 100%;
+	background: #f7f7f7;
+}
+main .adver{
+	width: 100%;
+	height: 8.1rem;
+}
+main .adver img{
+	width: 100%;
+	height: 100%;
+}
+main .detail{
+	padding: 0.6rem 0;
+}
+main .detail p{
+	width: 13.95rem;
+	margin-left: 0.5rem;
+	font-size: 0.6rem;
+	color: #585858;
+	line-height: 0.95rem;
+	margin-bottom: 1rem;
+}
+main .detail p i{
+	font-style: normal;
+}
+main .detail p span{
+	margin-left: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 2.45rem;
+	background: linear-gradient(to bottom,#646369,#4b4b53);
+}
+footer ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+footer ul li{
+	width: 33.33%;
+	border-right: 1px solid #282828;
+	text-align: center;
+	line-height: 2.45rem;
+	color: #fff;
+}
+footer ul li:hover{
+	border-top: 3px solid #e43669;
+}
