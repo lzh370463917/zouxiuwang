@@ -4,6 +4,7 @@ $(function(){
 	loadScroll();
 	getData(1);
 	reload();
+	swiper();
 }())
 
 
@@ -56,6 +57,16 @@ function reload(){
 		if(myIscroll.y<myIscroll.maxScrollY-50){
 			var _page=$("#page").val();
 			getData(parseInt(_page)+1);
+		}
+	})
+}
+function swiper(){
+	var swiper=new Swiper(".swiper-container",{
+		autoplay:2000,
+		pagination:".swiper-pagination",
+		loop:true,
+		paginationBulletRender:function(index,className){
+			return `<span class=${className}></span>`
 		}
 	})
 }

@@ -42,10 +42,16 @@ main .adver{
 	height: 6.25rem;
 	background: #000099;
 }
-main .adver img{
+main .adver .swiper-container{
 	width: 100%;
 	height: 100%;
 }
+main .adver .swiper-container .swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+main .adver .swiper-container .swiper-pagination-bullet{background: #fff;opacity: 1;}
+main .adver .swiper-container .swiper-pagination-bullet-active{background: red;}
 main section{
 	width: 100%;
 	flex: 1;
